@@ -21,7 +21,7 @@ class GcTests(unittest.TestCase):
         if len(sequence)==0:
             return 0 
         return (float(gc_count) / len(sequence))
-    def test_lowercase(self):
+   def test_lowercase(self):
         self.assertEqual(gc('AcTg'), 0.5)
 if __name__ == '__main__':
     unittest.main()
